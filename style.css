@@ -1,38 +1,71 @@
 .company-title {
     margin: 0;
     border: 0.08em solid black;
-    max-width: 30%;
+    max-width: 12%;
     padding: 0.4em;
     padding-top: 0.1em;
-    font-size: 2.5vw;
+    font-size: 2vw;
     flex: 1;
     text-align: center;
 }
 
 .top {
     display: flex;
-    width: 100%;
-    height: 10vw;
-    flex-direction: row;
-    padding: 0em;
-    align-items: stretch;
-    align-content: stretch;
-    background-color: turquoise;
-    gap: 0px 0px;
+    width: 100vw;
+    height: 5.4vw;
+    background-color: #D3D3D3;
     border: 0.125em solid black;
+    margin-left: 0px;
+    margin-top: 0px;
+    padding: 3em;
+    justify-content: space-between;
+    padding-left: 0.5em;
 }
 
 html {
- height: 100%;
- width: 70%;
+ height: auto;
+ width: auto;
+ overflow-x: hidden;
+ background: center / 20vw 15vw url('https://dudeproducts.com/cdn/shop/articles/gigachad_1068x.jpg?v=1667928905') 
 }
+
 .tabs {
     font-size: 0px;
+    width: 88%;
 }
+
 .tabs button {
-    border: 0.1em solid black;
-    border-radius: 0;
+    border-right: 0.1em solid black;
     font-size: 1.5vw;
-    float: left;
-    outline: none;
+    height: 100%;
+    width: 27.3vw;
+    border-top: none;
+    border-bottom: none;
+    background-color: #D3D3D3;
+}
+
+button:hover {
+    background-color: gray;
+}
+
+button:focus {
+    outline: blue;
+}
+
+button:active {
+    background-color:#7393B3;
+}
+
+.startertext {
+    color: white;
+    text-align: center;
+    font-size: 12vh;
+}
+
+.title-bottom {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
 }
