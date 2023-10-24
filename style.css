@@ -15,11 +15,13 @@
     height: 5.4vw;
     background-color: #D3D3D3;
     border: 0.125em solid black;
-    margin-left: 0px;
-    margin-top: 0px;
+    margin-left: -1em;
+    margin-top: -1em;
     padding: 3em;
-    justify-content: space-between;
     padding-left: 0.5em;
+    flex: 1;
+    min-width: 0;
+    align-items: stretch;
 }
 
 html {
@@ -31,14 +33,17 @@ html {
 
 .tabs {
     font-size: 0px;
-    width: 88%;
+    float: left;
+    margin-right: 0;
+    margin-left: 0;
+    max-width: 73.5%;
+    
 }
 
 .tabs button {
     border-right: 0.1em solid black;
     font-size: 1.5vw;
     height: 100%;
-    width: 27.3vw;
     border-top: none;
     border-bottom: none;
     background-color: #D3D3D3;
@@ -68,4 +73,8 @@ button:active {
     justify-content: center;
     align-items: center;
     height: 100vh;
+}
+.search-section {
+    margin: 0;
+    max-width: 14.5%;
 }
