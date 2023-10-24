@@ -1,17 +1,18 @@
 .company-title {
     margin: 0;
     border: 0.08em solid black;
-    max-width: 12%;
+    max-width: 12vw;
     padding: 0.4em;
     padding-top: 0.1em;
     font-size: 2vw;
     flex: 1;
     text-align: center;
+    flex-grow: 1;
 }
 
 .top {
     display: flex;
-    width: 100vw;
+    width: 98vw;
     height: 5.4vw;
     background-color: #D3D3D3;
     border: 0.125em solid black;
@@ -22,6 +23,7 @@
     flex: 1;
     min-width: 0;
     align-items: stretch;
+    justify-content: space-between;
 }
 
 html {
@@ -36,7 +38,7 @@ html {
     float: left;
     margin-right: 0;
     margin-left: 0;
-    max-width: 73.5%;
+    max-width: 73.5vw;
     
 }
 
@@ -47,6 +49,8 @@ html {
     border-top: none;
     border-bottom: none;
     background-color: #D3D3D3;
+    max-width: 24.5vw;
+    flex: 1;
 }
 
 button:hover {
@@ -76,5 +80,13 @@ button:active {
 }
 .search-section {
     margin: 0;
-    max-width: 14.5%;
+    max-width: 14.5vw;
+    max-height: 3em;
+    align-items:center;
+    margin-left: 2em;
+}
+.tabs, .search-section {
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
 }
