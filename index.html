@@ -16,31 +16,39 @@
         <button class="company-title">Make It Happen</button>
          <div class="findhelp">
           <h3 class="tabheader">Find Help</h3>
-          <button class="tablinks" onclick="openTab(event, test1)">Helpful Links for Supporting Websites</button>
+          <button class="tablinks" onclick="openTab(event, test1)" id="tab">Helpful Links for Supporting Websites</button>
          </div>
       </div>
 
-      <div class="flex2">
+      <div class="flex2" id="flex2">
         <button class="gettingStarted">Getting Started With Our Website</button>
         <div class="findhelp">
           <h3 class="tabheader">Take Action</h3>
-          <button class="tablinks" onclick="openTab(event, test1)">What Can You Do?</button>
-          <button class="tablinks" onclick="openTab(event, test1)">Solutions</button>
+          <div class="stacked-tablinks">
+            <button class="tablinks" onclick="openTab(event, test1)" id="tab">What Can You Do?</button>
+            <button class="tablinks" onclick="openTab(event, test1)" id="tab">Solutions</button>
+          </div>
          </div>
       </div>
 
       <div class="flex3">
-        <button class="tablinks" onclick="openTab(event, test1)">What Is It?</button>
-        <button class="tablinks" onclick="openTab(event, test1)">How It Affects Society</button>
-        <button class="tablinks" onclick="openTab(event, test1)">How To Deal With It</button>
+        <div class="flex3-space"></div>
+        <div class="findhelp">
+          <h3 class="tabheader">About Us</h3>
+          <div class="stacked-tablinks">
+            <button class="tablinks" onclick="openTab(event, test1)" id="tab">Team Information/Photo</button>
+            <button class="tablinks" onclick="openTab(event, test1)" id="tab">Information About Ourselves(Optional)</button>
+          </div>
+        </div>
       </div>
       
       <div class="flex4">
+        <button class="gettingStarted">Donate</button>
         <div class="search-section">
           <input type="search" id="search" class="searchbar" placeholder="search...">
           <button class="searchbutton">Search</button>
         </div>
-      </div>
+      </div>  
 
     </header>
 
@@ -48,9 +56,17 @@
 
   <body>
   <div class="title-bottom">
-    <h3 class="startertext">Toxic Masculinity: A Prevalent Problem</h3>
+    <h3 class="hometext">Toxic Masculinity: A Prevalent Problem</h3>
   </div>
-  
+
+  <div class="info-tabs">
+    <div class="body-info">
+     <header class="body-header">Different Info Tabs</header>
+     <button class="body-tabs" id="bodytabs"></button>
+     <button class="body-tabs" id="bodytabs"></button>
+     <button class="body-tabs" id="bodytabs"></button>
+    </div>
+  </div>
 
 	<script src="index.js"></script>
 
