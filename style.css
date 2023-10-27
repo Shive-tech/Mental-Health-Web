@@ -1,10 +1,10 @@
 .company-title {
     margin: 0;
-    border: 0.2em solid black;
+    border: 0.3vw solid black;
     max-width: 10vw;
     max-height: 10vh;
-    padding: 0.4em;
-    padding-top: 0.1em;
+    padding: 0.4vh;
+    padding-top: 0.1vh;
     font-size: 1.2vw;
     flex: 1;
     text-align: center;
@@ -27,9 +27,9 @@
 
 .gettingStarted {
     display: flex;
-    max-width: 80%;
-    max-height: 28%;
-    font-size: 1.5em;
+    max-width: 80vw;
+    max-height: 10vh;
+    font-size: 3.5vh;
 }
 
 .flex4 .gettingStarted {
@@ -42,13 +42,13 @@
     width: 98vw;
     height: 35vh;
     background-color: #D3D3D3;
-    border: 0.125em solid black;
-    margin-left: -1em;
-    margin-top: -1em;
-    padding: 3em;
-    padding-left: 0.5em;
-    padding-top: 1.5em;
-    padding-bottom: 1.5em;
+    border: 0.3vh solid black;
+    margin-left: -1vw;
+    margin-top: -1vh;
+    padding: 3vh;
+    padding-left: 0.5vw;
+    padding-top: 3vh;
+    padding-bottom: 4vh;
     flex: 1;
     min-width: 0;
     align-items: stretch;
@@ -74,10 +74,11 @@ html {
     display: flex;
     flex-direction: column;
     min-height: 11vh;
+    text-align: left;
 }
 
 .stacked-tablinks button {
-    font-size: 1.4em;
+    font-size: 3vh;
     width: 20vw;
     text-align: left;
 }
@@ -109,6 +110,7 @@ button:active {
     width: 22vw;
     background-color: gray;
     margin: 4vh 38vw;
+    margin-top: 40vh;
 }
 .search-section {
     display: flex;
@@ -132,7 +134,7 @@ button:active {
 
 header button {
     background-color: #D3D3D3;
-    border-right: 0.1em solid black;
+    border-right: 0.1vw solid black;
     flex: 1;
     font-size: 1.5vw;
     align-items: center;
@@ -155,6 +157,17 @@ header button {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.body-info {
+    height: 30vh;
+    background-color: white;
+    width: 50vw;
+}
+
+.body-header {
+    font-size: 4vh;
+    margin: 0.5vw;
 }
 
 
