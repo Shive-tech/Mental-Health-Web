@@ -36,7 +36,7 @@
     display: flex;
     max-width: 80vw;
     max-height: 10vh;
-    font-size: 3.5vh;
+    font-size: 1.5vw;
 }
 
 .flex4 .gettingStarted {
@@ -73,8 +73,12 @@ html {
     display: flex;
     max-width: 20vw;
     max-height: 11vh;
-    text-align: left;
+    min-height: 11vh;
+    text-align: center;
     flex-direction: column;
+    font-size: 1.5vw;
+    margin-bottom: 2vh;
+    padding-top: 1vh;
 }
 
 .stacked-tablinks {
@@ -83,12 +87,15 @@ html {
     min-height: 11vh;
     text-align: left;
     align-items: center;
+    margin-bottom: 2vh;
 }
 
 .stacked-tablinks button {
-    font-size: 3vh;
+    font-size: 1.05vw;
     width: 20vw;
     text-align: left;
+    margin-bottom: 0;
+    min-height: 5.5vh;
 }
 
 button:hover {
@@ -106,7 +113,7 @@ button:active {
 .hometext {
     color: black;
     text-align: center;
-    font-size: 4vh;
+    font-size: 2vw;
 }
 
 .title-bottom {
@@ -157,10 +164,10 @@ header button {
 }
 
 .info-tabs {
+    display: flex;
     background-color: gray; 
     height: 40vh;
     width: 70vw;
-    align-self: center;
     margin: auto;
     display: flex;
     align-items: center;
@@ -168,16 +175,24 @@ header button {
 }
 
 .body-info {
+    display: flex;
     height: 30vh;
     background-color: white;
     width: 50vw;
+    flex-direction: column;
+    align-items: center;
 }
 
 .body-header {
-    font-size: 4vh;
+    display: flex;
+    font-size: 2vw;
     margin: 0.5vw;
 }
 
+.info-tabs .body-tabs {
+    display: flex;
+    flex-direction: row;
+}
 
 
 
