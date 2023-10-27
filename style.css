@@ -189,7 +189,7 @@ header button {
     margin: 0.5vw;
 }
 
-.info-tabs .body-tabs {
+.body-tab-section {
     display: flex;
     flex-direction: row;
 }
