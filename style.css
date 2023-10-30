@@ -231,7 +231,10 @@ header button {
 }
 
 .about-us-footer {
+    display: flex;
+    flex-direction: column;
     height: 35vh;
+    align-items: center;
 }
 
 .copyright {
@@ -254,11 +257,10 @@ header button {
 .logos {
     background-color: white;
     height: 20vh;
-    margin-top: 5vh;
+    margin-top: 4vh;
 }
 
 .f-flex3 {
-    background-color: gray;
     height: 50vh;
     width: 59vw;
 }
@@ -266,7 +268,14 @@ header button {
 .company-info {
     background-color: white;
     height: 35vh;
-    
+}
+
+.idk {
+    display: flex;
+    flex-direction: row;
+    background-color: gray;
+    height: 10vh;
+    margin-top: 4vh;
 }
 
 
