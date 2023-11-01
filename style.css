@@ -9,6 +9,18 @@
     flex: 1;
     text-align: center;
     flex-grow: 1;
+    background-image: url("logo.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.company-title:hover {
+    border: 0.3vw solid #89CFF0;
+}
+
+.company-title:active {
+    border: 0.3vw solid #088F8F;
 }
 
 .findhelp {
@@ -48,7 +60,7 @@
     display: flex;
     width: 98vw;
     height: 35vh;
-    background-color: #D3D3D3;
+    background-color: #cff4ec;
     border: 0.3vh solid black;
     margin-left: -1vw;
     margin-top: -1vh;
@@ -208,13 +220,14 @@ header button {
 
 .bottom {
     background-color: black;
-    height: 50vh;
+    height: 30vh;
     width: 95.6vw;
     margin-left: -1vw;
-    margin-bottom: -1vh;
+    margin-bottom: -10vh;
     padding: 4vh;
     display: flex;
     flex-direction: row;
+    padding-left: 7.2vw;
 }
 
 .f-flex1, .f-flex2, .f-flex3 {
@@ -233,49 +246,151 @@ header button {
 .about-us-footer {
     display: flex;
     flex-direction: column;
-    height: 35vh;
-    align-items: center;
+    height: 15vh;                                                  
+    align-items: left;
+    justify-content: flex-start;
+}
+
+.about-us-header {
+    font-size: 1.8vw;
+    margin-top: 0.1vh;
+    margin-bottom: 0.2vh;
+}
+
+.about-us-footer button {
+    height: 4vh;
 }
 
 .copyright {
-    margin-top: 5vh;
-    height: 10vh;
+    margin-top: 8vh;
+    height: 9vh;
+}
+
+.copyright-text {
+    font-weight: bold;
+    font-size: 1.8vw;
 }
 
 .f-flex2 {
     display: flex;
     flex-direction: column;
-    height: 35vh;
+    height: 32vh;
     width: 20vw;
 }
 
 .stay-connected {
     background-color: white;
-    height: 10vh;
+    height: 8vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.stay-connected-text {
+    font-weight: bold;
+    font-size: 1.8vw;
 }
 
 .logos {
     background-color: white;
     height: 20vh;
     margin-top: 4vh;
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+}
+
+.logo-box {
+    background-image: url("logo.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 10vw;
+    border: 0.2vw solid black;
+}
+
+.social-media {
+    width: 10vw;
+    background-color: #088F8F;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start center;
+    align-items: center;
+    padding: 0.5vw;
+}
+
+.social-media div {
+    margin: auto;
+}
+
+.twitter {
+    background-image: url("twitter.png");
+    background-size: contain;
+    height: 8vh;
+    width: 4.2vw;
+    background-repeat: no-repeat;
+    border: 0.1vw solid black;
+    background-position: center;
+}
+
+.facebook {
+    background-image: url("facebook.png");
+    background-size: contain;
+    height: 8vh;
+    width: 4.2vw;
+    background-repeat: no-repeat;
+    border: 0.1vw solid black;
+    background-position: center;
+}
+
+.instagram {
+    background-image: url("instagram.png");
+    background-size: contain;
+    height: 8vh;
+    width: 4.2vw;
+    background-repeat: no-repeat;
+    border: 0.1vw solid black;
+    background-position: center;
+}
+
+.tiktok {
+    background-image: url("twitter.png");
+    background-size: contain;
+    height: 8vh;
+    width: 4.2vw;
+    background-repeat: no-repeat;
+    border: 0.1vw solid black;
+    background-position: center;
 }
 
 .f-flex3 {
-    height: 50vh;
-    width: 59vw;
+    height: 30vh;
+    width: 40vw;
+    margin-top: -2.5vh;
 }
 
 .company-info {
     background-color: white;
-    height: 35vh;
+    height: 20vh;
 }
 
 .idk {
     display: flex;
     flex-direction: row;
     background-color: gray;
-    height: 10vh;
+    height: 8vh;
     margin-top: 4vh;
+}
+
+.company-info p, a {
+    font-size: 1.2vw;
+    font-weight: bold;
+    margin: 2.2% auto;
+}
+
+a {
+    text-decoration: none;
 }
 
 
