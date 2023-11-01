@@ -254,11 +254,14 @@ header button {
 .about-us-header {
     font-size: 1.8vw;
     margin-top: 0.1vh;
-    margin-bottom: 0.2vh;
+    margin-bottom: -0.05vh;
 }
 
-.about-us-footer button {
-    height: 4vh;
+.about-us-footer a {
+    margin-left: 0;
+    font-size: 1vw;
+    margin-top: 0.2vh;
+    margin-bottom: auto;
 }
 
 .copyright {
@@ -322,6 +325,7 @@ header button {
 
 .social-media div {
     margin: auto;
+    margin-left: 0.25vw;
 }
 
 .twitter {
@@ -354,8 +358,8 @@ header button {
     background-position: center;
 }
 
-.tiktok {
-    background-image: url("twitter.png");
+.reddit {
+    background-image: url("reddit.png");
     background-size: contain;
     height: 8vh;
     width: 4.2vw;
@@ -383,14 +387,28 @@ header button {
     margin-top: 4vh;
 }
 
-.company-info p, a {
+.company-info p {
     font-size: 1.2vw;
     font-weight: bold;
-    margin: 2.2% auto;
+    margin: 1vw 0;
+}
+
+.company-info a {
+    font-size: 1.2vw;
+    font-weight: bold;
+    margin: 1vw 0;
 }
 
 a {
     text-decoration: none;
+}
+
+a:hover {
+    color: #89CFF0;
+}
+
+a:active {
+    color: #5F9EA0;
 }
 
 
