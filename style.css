@@ -24,7 +24,7 @@
 }
 
 .findhelp {
-    background-color: #ffffff;
+    background-color: #cff4ec;
     height: 20vh;
     display: flex;
     width: 22vw;
@@ -60,7 +60,7 @@
     display: flex;
     width: 98vw;
     height: 35vh;
-    background-color: #cff4ec;
+    background-color: white;
     border: 0.3vh solid black;
     margin-left: -1vw;
     margin-top: -1vh;
@@ -111,7 +111,7 @@ html {
 }
 
 button:hover {
-    background-color: gray;
+    background-color: rgba(3, 43, 16, 0.544);
 }
 
 button:focus {
@@ -128,17 +128,6 @@ button:active {
     font-size: 2vw;
 }
 
-.title-bottom {
-    display: flex;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-    height: 12vh;
-    width: 22vw;
-    background-color: gray;
-    margin: 4vh 38vw;
-    margin-top: 40vh;
-}
 .search-section {
     display: flex;
     margin: 0;
@@ -160,12 +149,24 @@ button:active {
 }
 
 header button {
-    background-color: #D3D3D3;
+    background-color: #94d6c8;
     border-right: 0.1vw solid black;
     flex: 1;
     font-size: 1.5vw;
     align-items: center;
     font-style: Monospace;
+}
+
+.title-bottom {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    height: 12vh;
+    width: 22vw;
+    background-color: white;
+    margin: 4vh 38vw;
+    margin-top: 40vh;
 }
 
 .hflex1, .hflex2, .hflex3, .hflex4 {
@@ -177,7 +178,7 @@ header button {
 
 .info-tabs {
     display: flex;
-    background-color: gray; 
+    background-color: white; 
     height: 40vh;
     width: 70vw;
     margin: auto;
@@ -190,7 +191,7 @@ header button {
 .body-info {
     display: flex;
     height: 30vh;
-    background-color: white;
+    background-color: #97ced0;
     width: 50vw;
     flex-direction: column;
     align-items: center;
@@ -219,7 +220,7 @@ header button {
 }
 
 .bottom {
-    background-color: black;
+    background-color: white;
     height: 30vh;
     width: 95.6vw;
     margin-left: -1vw;
@@ -239,6 +240,9 @@ header button {
 .f-flex1 {
     width: 20%;
     margin-left: -0.2vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .f-flex1 div {
@@ -267,12 +271,15 @@ header button {
 
 .copyright {
     margin-top: 8vh;
-    height: 9vh;
+    height: 8vh;
+    border-top: 0.5vh solid #5F9EA0;
+    padding-top: 4vh;
 }
 
 .copyright-text {
     font-weight: bold;
     font-size: 1.8vw;
+    margin: auto 0;
 }
 
 .f-flex2 {
@@ -286,9 +293,9 @@ header button {
     background-color: white;
     height: 8vh;
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
     flex-direction: column;
-    align-items: center;
+    align-items: left;
 }
 
 .stay-connected-text {
@@ -315,22 +322,25 @@ header button {
 
 .social-media {
     width: 10vw;
-    background-color: #088F8F;
+    background-color: white;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: flex-start center;
     align-items: center;
-    padding: 0.5vw;
+    padding: 0.6vh 0;
+    border: 0.2vw solid black;
+    border-left: 0;
 }
 
 .social-media div {
     margin: auto;
+    margin-bottom: 0.5vh;
     margin-left: 0.25vw;
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
     border: 0.1vw solid black;
-    background-position: center;
+    background-position: center center;
     height: 8vh;
     width: 4.2vw;
 }
@@ -354,31 +364,54 @@ header button {
 .f-flex3 {
     height: 30%;
     width: 40vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start space-between;
 }
 
 .company-info {
     background-color: white;
-    height: 20vh;
+    height: 40vh;
 }
 
 .idk {
     display: flex;
     flex-direction: row;
-    background-color: gray;
-    height: 8vh;
+    background-color: white;
+    height: 20vh;
     margin-top: 4vh;
+    align-items: center;
+    justify-content: space-between;
+    border-top: 0.5vh solid #5F9EA0;
+    padding-top: 5vh;
+}
+
+.privacy {
+    height: 4vh;
+    font-size: 1.5vw;
+    width: 10vw;
+}
+
+.backtotop {
+    height: 4vh;
+    font-size: 1vw;
+    width: 8vw;
+    background-color: #94d6c8;
+    border-width: 0;
 }
 
 .company-info p {
     font-size: 1.2vw;
     font-weight: bold;
-    margin: 0.5vw 0;
+    margin: auto 0;
+    margin-bottom: 2vh;
 }
 
 .company-info a {
     font-size: 1.2vw;
     font-weight: bold;
-    margin: 1vw 0;
+    margin: auto 0;
+    margin-top: 2vh;
 }
 
 a {
@@ -392,6 +425,7 @@ a:hover {
 a:active {
     color: #5F9EA0;
 }
+
 
 
 
