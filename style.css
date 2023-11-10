@@ -1,14 +1,11 @@
 .company-title {
     margin: 0;
     border: 0.3vw solid black;
-    max-width: 10vw;
-    max-height: 10vh;
+    height: 10vh;
+    width: 10vw;
     padding: 0.4vh;
     padding-top: 0.1vh;
-    font-size: 1.2vw;
-    flex: 1;
     text-align: center;
-    flex-grow: 1;
     background-image: url("logo.png");
     background-size: contain;
     background-repeat: no-repeat;
@@ -82,10 +79,10 @@
 }
 
 html {
- height: auto;
- width: auto;
- overflow-x: hidden;
- background: center / 20vw 15vw url('https://dudeproducts.com/cdn/shop/articles/gigachad_1068x.jpg?v=1667928905') 
+    height: auto;
+    width: auto;
+    overflow-x: hidden;
+    background: center / 20vw 15vw url('https://dudeproducts.com/cdn/shop/articles/gigachad_1068x.jpg?v=1667928905')
 }
 
 .tablinks {
@@ -126,7 +123,7 @@ button:focus {
 }
 
 button:active {
-    background-color:#7393B3;
+    background-color: #7393B3;
 }
 
 .hometext {
@@ -139,12 +136,19 @@ button:active {
     display: flex;
     margin: 0;
     max-width: 14.5vw;
-    max-height: 2.2em;
+    max-height: 3vh;
     margin-left: 0;
     justify-content: flex-end;
+    flex-direction: row;
+    align-items: stretch;
 }
-.tabs, .search-section, .hflex1, .hflex2, .hflex3, .hflex4 {
-    flex: 1;    
+
+.tabs,
+.hflex1,
+.hflex2,
+.hflex3,
+.hflex4 {
+    flex: 1;
     display: flex;
     justify-content: space-between;
     border-top: none;
@@ -164,6 +168,16 @@ header button {
     font-style: Monospace;
 }
 
+.hflex1,
+.hflex2,
+.hflex3,
+.hflex4 {
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 2vw;
+    margin-right: 2vw;
+}
+
 .title-bottom {
     display: flex;
     text-align: center;
@@ -176,16 +190,9 @@ header button {
     margin-top: 40vh;
 }
 
-.hflex1, .hflex2, .hflex3, .hflex4 {
-    flex-direction: column;
-    justify-content: space-between;
-    margin-left: 2vw;
-    margin-right: 2vw;
-}
-
 .info-tabs {
     display: flex;
-    background-color: white; 
+    background-color: white;
     height: 40vh;
     width: 70vw;
     margin: auto;
@@ -239,7 +246,9 @@ header button {
     padding-left: 7.2vw;
 }
 
-.f-flex1, .f-flex2, .f-flex3 {
+.f-flex1,
+.f-flex2,
+.f-flex3 {
     display: flex;
     flex-direction: column;
     margin-left: 2vw;
@@ -433,7 +442,3 @@ a:hover {
 a:active {
     color: #5F9EA0;
 }
-
-
-
-
