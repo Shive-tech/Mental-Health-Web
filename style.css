@@ -46,6 +46,7 @@
     max-width: 80vw;
     max-height: 10vh;
     font-size: 1.5vw;
+    padding: 1.1vh;
 }
 
 .donate {
@@ -53,6 +54,7 @@
     max-height: 7vh;
     font-size: 1.5vw;
     text-align: left;
+    padding: 1vh;
 }
 
 .hflex4 .gettingStarted {
@@ -165,7 +167,7 @@ header button {
     flex: 1;
     font-size: 1.5vw;
     align-items: center;
-    font-style: Monospace;
+    font-family: "Monospace", 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
 }
 
 .hflex1,
