@@ -1,0 +1,15 @@
+.donate-body {
+    background-color: white;
+    margin-top: 20vh;
+    margin-bottom: 20vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.donate-text {
+    font-size: 20vh;
+    text-align: center;
+}

@@ -12,7 +12,7 @@
 
 .info-tabs {
     display: flex;
-    background-color: white;
+    background-image: url('happy guy.jpeg');
     height: 40vh;
     width: 70vw;
     margin: auto;
@@ -20,6 +20,8 @@
     align-items: center;
     justify-content: center;
     margin-bottom: 40vh;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
 }
 
 .body-info {
