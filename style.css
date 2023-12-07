@@ -90,6 +90,7 @@ html {
 .tablinks {
     display: flex;
     max-width: 20vw;
+    min-width: 20vw;
     max-height: 11vh;
     min-height: 11vh;
     text-align: center;
@@ -97,15 +98,6 @@ html {
     font-size: 1.5vw;
     margin-bottom: 2vh;
     padding-top: 1vh;
-}
-
-.stacked-tablinks {
-    display: flex;
-    flex-direction: column;
-    min-height: 11vh;
-    text-align: left;
-    align-items: center;
-    margin-bottom: 2vh;
 }
 
 .stacked-tablinks button {
@@ -194,6 +186,7 @@ header button {
     display: flex;
     flex-direction: row;
     padding-left: 7.2vw;
+    border-top: 0.3vh solid black;
 }
 
 .f-flex1,
