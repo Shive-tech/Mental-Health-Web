@@ -1,0 +1,6 @@
+.team-image {
+    background-image: url('team-info.jpg');
+    height: 50vh;
+    width: 80vh;
+    margin: 4vh auto;
+}

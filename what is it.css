@@ -5,7 +5,7 @@
 
 .body-text {
     background-color: white;
-    width: 60vw;
+    width: 50vw;
     padding: 10vh 5vw;
     display: flex;
     flex-direction: column;
@@ -16,5 +16,48 @@
 
 .body-text p {
     font-size: 3.4vh;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
 }
+
+.section-2-header {
+    border-top: 0.5vh solid rgb(135, 228, 135);
+    padding-top: 4vh;
+}
+
+.img0 {
+    border: 0.1vw solid black;
+    background-image: url('what-is-img0.jpg');
+    height: 28vh;
+    width: 35vh;
+    margin: 0 auto;
+}
+
+.img1 {
+    border: 0.1vw solid black;
+    background-image: url('what-is-img1.jpg');
+    height: 40vh;
+    width: 50vh;
+    margin: 0 auto;
+}
+
+.img2 {
+    border: 0.1vw solid black;
+    background-image: url('what-is-img2.jpg');
+    height: 33vh;
+    width: 50vh;
+    margin: 0 auto;
+}
+
+.info-tab-buttons {
+    margin-top: 8vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.info-tab-buttons button {
+    background-color: yellowgreen;
+    height: 4vh;
+}
+
 

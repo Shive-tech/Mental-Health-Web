@@ -1,0 +1,68 @@
+.gettingStarted-body {
+    width: 72vw;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+.table-content {
+    background-color: white;
+    margin: 0 auto;
+    width: 70vw;
+}
+
+.introduction {
+    background-color: white;
+    margin: 0 auto;
+    width: 70vw;
+    border-top: 0.2vh solid black;
+}
+
+.navigation {
+    background-color: white;
+    margin: 0 auto;
+    width: 70vw;
+    border-top: 0.2vh solid black;
+}
+
+.header-info {
+    background-color: white;
+    margin: 0 auto;
+    width: 70vw;
+}
+
+.information-tabs {
+    background-color: white;
+    margin: 0 auto;
+    width: 70vw;
+}
+
+.takeActionGuide {
+    background-color: white;
+    margin: 0 auto;
+    width: 70vw;
+    border-top: 0.2vh solid black;
+}
+
+.find-help-guide {
+    background-color: white;
+    margin: 0 auto;
+    width: 70vw;
+    border-top: 0.2vh solid black;
+}
+
+.about-us-section {
+    background-color: white;
+    margin: 0 auto;
+    width: 70vw;
+    border-top: 0.2vh solid black;
+}
+
+.footer-section {
+    background-color: white;
+    margin: 0 auto;
+    margin-bottom: 1.5vh;
+    width: 70vw;
+    border-top: 0.2vh solid black;
+}
