@@ -25,3 +25,8 @@
   padding: 4vh;
 }
 
+p {
+  text-align: center; 
+  margin-top: 50px;
+  font-size: 25px;
+}

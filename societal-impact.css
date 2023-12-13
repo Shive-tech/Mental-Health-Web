@@ -40,3 +40,16 @@
     background-color: yellowgreen;
     height: 4vh;
 }
+
+.video {
+    height: 40vh;
+    margin: 0 auto;
+    width: 70vh;
+}
+
+.img1 {
+    background-image: url('societal-img1.jpg');
+    height: 50vh;
+    width: 70vh;
+    margin: 0 auto;
+}

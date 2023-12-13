@@ -17,3 +17,13 @@
 .body-text p {
     font-size: 3.4vh;
 }
+
+.img1 {
+    border: 0vw solid black;
+    background-image: url('what-can-img1.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 40vh;
+    width: 50vh;
+    margin: 0 auto;
+}

@@ -58,3 +58,19 @@
     background-color: #5F9EA0;
     opacity: 0.8;
 }
+
+/* Code for the navigator bar */
+#leftArrow, #rightArrow {
+    font-size: 2vw;
+    position: absolute;
+    background-color: rgba(128, 128, 128, 0.5); /* semi-transparent grey background */
+    color: #333; /* dark grey arrow */
+    border: none;
+    padding: 1vw;
+}
+#leftArrow {
+    margin-left: -19.5vw;
+}
+#rightArrow {
+    margin-left: 45.5vw;
+}
