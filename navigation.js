@@ -1,12 +1,3 @@
-/* Code for the navigator bar */
-#leftArrow, #rightArrow {
-    font-size: 2vw;
-    background-color: rgba(128, 128, 128, 0.5); /* semi-transparent grey background */
-    color: #333; /* dark grey arrow */
-    border: none;
-    padding: 1vw;
-}
-code for javascript:
 var index = 1;
 var maxIndex = 3;
 
