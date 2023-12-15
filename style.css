@@ -6,7 +6,7 @@
     padding: 0.4vh;
     padding-top: 0.1vh;
     text-align: center;
-    background-image: url("logo1.png");
+    background-image: url("logo1.png"); /* Will change this later to fit the index */
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
@@ -128,15 +128,23 @@ button:active {
 
 .search-section {
     display: flex;
-    width: 15vw;
+    width: 15%;
     height: 2.5vh;
     margin-left: 0;
     align-items: stretch;
     flex-direction: row; 
+    background-color: black;
 }
 
 .searchbar {
+    flex: 1;
     margin: 0 0;
+    height: 3vh;
+}
+
+.searchbutton {
+    font-size: 0.8vw;
+    border-left: 0;
 }
 
 .tabs,
@@ -148,12 +156,6 @@ button:active {
     display: flex;
     justify-content: space-between;
     border-top: none;
-}
-
-.searchbutton {
-    font-size: 0.8vw;
-    border-left: 0;
-    align-self: stretch;
 }
 
 header button {
@@ -256,6 +258,7 @@ header button {
     justify-content: flex-end;
     flex-direction: column;
     align-items: left;
+    border-bottom: 0.5vh solid #5F9EA0
 }
 
 .stay-connected-text {

@@ -13,3 +13,19 @@
     font-size: 20vh;
     text-align: center;
 }
+
+/* Working on scaling
+@media only screen and (max-width: 400px){
+    .donate-body{
+        height: 90%;
+    }
+    .donate-text{
+        font-size: 18vh;
+        text-align: auto;
+    }
+}
+
+@media only screen and (max-width: 800px){
+    
+}
+*/
