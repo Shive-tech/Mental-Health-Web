@@ -18,15 +18,11 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 1% 2%;
 }
 
 .body-row a, .body-row2 a {
   background-color: #e2f6cd;
-  padding: 4vh;
-}
-
-p {
-  text-align: center; 
-  margin-top: 50px;
-  font-size: 25px;
+  padding: 2vh;
+  font-size: 2vh;
 }

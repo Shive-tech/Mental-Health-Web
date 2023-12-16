@@ -74,7 +74,6 @@
     padding-left: 0.5vw;
     padding-top: 3vh;
     padding-bottom: 4vh;
-    flex: 1;
     min-width: 0;
     align-items: stretch;
     justify-content: space-between;
@@ -150,6 +149,7 @@ button:active {
     font-size: 0.8vw;
     border-left: 0;
     height: 100%;
+    flex: 1;
 }
 
 .tabs,
@@ -185,11 +185,11 @@ header button {
 /*footer styling---------------------------------------------------------------------------------------------------------------------*/
 .bottom {
     background-color: white;
-    height: 30vh;
+    height: auto;
     width: 95.6vw;
     margin-left: -1vw;
     margin-bottom: -10vh;
-    padding: 4vh;
+    padding: 2vh 4vw;
     display: flex;
     flex-direction: row;
     padding-left: 7.2vw;
@@ -202,6 +202,7 @@ header button {
     display: flex;
     flex-direction: column;
     margin-left: 2vw;
+    margin-bottom: 0;
 }
 
 .f-flex1 {
@@ -210,6 +211,7 @@ header button {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    margin-bottom: 1vh;
 }
 
 .f-flex1 div {
@@ -221,26 +223,24 @@ header button {
     flex-direction: column;
     align-items: left;
     justify-content: flex-start;
+    margin-bottom: 0;
 }
 
 .about-us-header {
     font-size: 1.8vw;
-    margin-top: 0.1vh;
-    margin-bottom: -0.05vh;
+    margin: 0;
 }
 
 .about-us-footer a {
-    margin-left: 0;
     font-size: 1vw;
-    margin-top: 0.2vh;
-    margin-bottom: auto;
+    margin: 0;
 }
 
 .copyright {
-    margin-top: 5vh;
-    height: 8vh;
+    margin-top: 2vh; /* Adjusted margin */
+    height: auto; /* Adjusted height */
     border-top: 0.5vh solid #5F9EA0;
-    padding-top: 2vh;
+    padding-top: 1vh; /* Adjusted padding */
 }
 
 .copyright-text {
@@ -254,6 +254,7 @@ header button {
     flex-direction: column;
     height: 32%;
     width: 20vw;
+    margin-bottom: 1vh;
 }
 
 .stay-connected {
@@ -263,7 +264,7 @@ header button {
     justify-content: flex-end;
     flex-direction: column;
     align-items: left;
-    border-bottom: 0.5vh solid #5F9EA0
+    border-bottom: 0.5vh solid #5F9EA0;
 }
 
 .stay-connected-text {
@@ -273,11 +274,12 @@ header button {
 
 .logos {
     background-color: white;
-    height: 20vh;
-    margin-top: 4vh;
+    height: auto;
+    margin-top: 2vh;
     display: flex;
     flex-direction: row;
     align-items: stretch;
+    margin-bottom: 0;
 }
 
 .logo-box {
@@ -285,11 +287,13 @@ header button {
     background-repeat: no-repeat;
     background-size: contain;
     width: 10vw;
+    height: auto;
     border: 0.2vw solid black;
 }
 
 .social-media {
     width: 10vw;
+    height: auto;
     background-color: white;
     display: flex;
     flex-direction: row;
@@ -309,7 +313,8 @@ header button {
     background-repeat: no-repeat;
     border: 0.1vw solid black;
     background-position: center center;
-    height: 8vh;
+    height: auto;
+    min-height: 4.8vh;
     width: 4.2vw;
 }
 
@@ -339,19 +344,21 @@ header button {
 
 .company-info {
     background-color: white;
-    height: 40vh;
+    height: auto;
+    margin-bottom: 0;
 }
 
 .idk {
     display: flex;
     flex-direction: row;
     background-color: white;
-    height: 20vh;
+    height: auto;
     margin-top: 4vh;
     align-items: center;
     justify-content: space-between;
     border-top: 0.5vh solid #5F9EA0;
-    padding-top: 2vh;
+    padding-top: 1vh;
+    margin-bottom: 0;
 }
 
 .privacy {
@@ -378,8 +385,9 @@ header button {
 .company-info a {
     font-size: 1.2vw;
     font-weight: bold;
-    margin: auto 0;
+    margin: 1vh 0;
     margin-top: 2vh;
+    height: auto;
 }
 
 a {
