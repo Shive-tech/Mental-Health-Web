@@ -88,9 +88,8 @@
   }
   
   .images img {
-    background-color: #97ced0;
     width: auto; /* Make sure the image takes up the full width of its container */
-    height: 40vh;
+    height: 25vh;
   }
   
   .slide button {
