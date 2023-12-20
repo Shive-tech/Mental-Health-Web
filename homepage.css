@@ -1,23 +1,13 @@
 .title-bottom {
     display: flex;
-    text-align: center;
-    justify-content: center;
+    flex-direction: row;
     align-items: center;
+    text-align: center;
     height: 12vh;
     width: 22vw;
     background-color: #97ced0;
-    margin: 4vh 38vw;
+    margin: 4vh auto;
     margin-top: 40vh;
-}
-
-.body-info {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    background-color: black;
-    height: 100vh;
-    margin-bottom: 40vh;
 }
 
 .info-tabs {
@@ -47,16 +37,6 @@
     margin-top: auto;
 }
 
-.body-tabs {
-    height: 5vh;
-    width: 30vw;
-    margin-left: 1vw;
-    margin-right: 1vw;
-    margin-top: 0.1vh;
-    background-color: #5F9EA0;
-    opacity: 0.8;
-}
-
 .arrowOrganizer {
     display: flex;
     flex-direction: row;
@@ -79,5 +59,76 @@
     padding: 1vw;
 }
 
+.slide {
+    font-size: 500%;
+    background-color: #97ced0;
+} 
 
-
+.content {
+    margin-bottom: 20vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    position: relative; /* Set position relative for absolute positioning */
+  }
+  
+  
+  .images {
+    display: flex;
+  }
+  
+  .slide {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 500%;
+  }
+  
+  .images img {
+    background-color: #97ced0;
+    width: 80%; /* Make sure the image takes up the full width of its container */
+    height: auto;
+  }
+  
+  .slide button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 1vh 2vw;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+    display: inline-block;
+    font-size: 1.6vw;
+    cursor: pointer;
+    border: none;
+    border-radius: 1vw;
+    margin-top: 1vh;
+  }
+  
+  .slide.left,
+  .slide.right {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    background: rgba(255, 255, 255, 0.1);
+    height: 9vh;
+    width: 3vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 500%;
+    background-color: #97ced0;
+  }
+  
+  .slide.left {
+    left: 0;
+  }
+  
+  .slide.right {
+    right: 0;
+  }
+  

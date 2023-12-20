@@ -57,3 +57,5 @@ window.addEventListener('resize', scalePage);
   
   // // Attach the function to the window resize event to scale dynamically
   // window.addEventListener('resize', scaleWebsite);
+
+
