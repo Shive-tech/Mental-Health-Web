@@ -89,12 +89,12 @@
   
   .images img {
     background-color: #97ced0;
-    width: 80%; /* Make sure the image takes up the full width of its container */
-    height: auto;
+    width: auto; /* Make sure the image takes up the full width of its container */
+    height: 40vh;
   }
   
   .slide button {
-    background-color: #4CAF50;
+    background-color: #96DED1;
     color: white;
     padding: 1vh 2vw;
     text-align: center;
