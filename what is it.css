@@ -43,9 +43,14 @@
 .img2 {
     border: 0.1vw solid black;
     background-image: url('what-is-img2.jpg');
-    height: 33vh;
-    width: 50vh;
+    height: 10vh;
+    width: 30vw;
     margin: 0 auto;
+}
+
+.img0, .img1, .img2 {
+    background-repeat: no-repeat;
+    background-size: 100%;
 }
 
 .info-tab-buttons {
