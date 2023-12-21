@@ -1,12 +1,11 @@
 .references {
     background-color: white;
     margin: 20vh auto;
-    height: 100%;
     width: 98%;
     padding: 1vh 2vw;
 }
 
 .references pre {
-    font-size: 80%;
+    font-size: 2vw;
     white-space: pre-wrap;
 }

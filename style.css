@@ -294,23 +294,23 @@ header button {
 }
 
 .social-media {
-    width: 10vw;
+    width: auto;
     height: auto;
     background-color: white;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: flex-start center;
+    justify-content: center;
     align-items: center;
-    padding: 0.6vh 0;
+    padding: 0.3vh auto;
     border: 0.2vw solid black;
     border-left: 0;
+    margin: auto auto;
 }
 
 .social-media div {
     margin: auto;
-    margin-bottom: 0.5vh;
-    margin-left: 0.25vw;
+    height: auto;
     background-size: cover;
     background-repeat: no-repeat;
     border: 0.1vw solid black;

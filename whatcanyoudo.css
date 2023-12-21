@@ -1,11 +1,11 @@
 .paragraph-header {
     color: yellowgreen;
-    font-size: 5vh;
+    font-size: 3vh;
 }
 
 .body-text {
     background-color: white;
-    width: 50vw;
+    width: 80%;
     padding: 10vh 5vw;
     display: flex;
     flex-direction: column;
@@ -15,7 +15,7 @@
 }
 
 .body-text p {
-    font-size: 3.4vh;
+    font-size: 4vw;
 }
 
 .img1 {
@@ -23,7 +23,7 @@
     background-image: url('what-can-img1.jpg');
     background-size: 100%;
     background-repeat: no-repeat;
-    height: 40vh;
-    width: 30vh;
+    height: 20vh;
+    width: 30vw;
     margin: 0 auto;
 }

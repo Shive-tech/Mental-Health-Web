@@ -12,17 +12,17 @@
 
 .body-row div, .body-row2 div {
   background-color: white;
-  height: 20vh;
+  height: auto;
   width: 20vw;
   margin: 2vw;
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 1% 2%; 
+  padding: 4% 2%;
 }
 
 .body-row a, .body-row2 a {
   background-color: #e2f6cd;
-  padding: 2vh;
-  font-size: 2vh;
+  padding: 1vh 2vw;
+  font-size: 2vw;
 }

@@ -1,11 +1,11 @@
 .paragraph-header {
     color: yellowgreen;
-    font-size: 5vh;
+    font-size: 3vh;
 }
 
 .body-text {
     background-color: white;
-    width: 50vw;
+    width: 80%;
     padding: 10vh 5vw;
     display: flex;
     flex-direction: column;
@@ -15,7 +15,7 @@
 }
 
 .body-text p {
-    font-size: 3.4vh;
+    font-size: 4vw;
     font-family: Verdana, Arial, Helvetica, sans-serif;
 }
 
@@ -42,14 +42,18 @@
 }
 
 .video {
-    height: 40vh;
+    height: 20vh;
     margin: 0 auto;
-    width: 70vh;
+    width: 50vw;
 }
 
 .img1 {
     background-image: url('societal-img1.jpg');
-    height: 50vh;
-    width: 70vh;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    border: 0.1vw solid black;
+    height: 10vh;
+    width: 40vw;
     margin: 0 auto;
 }

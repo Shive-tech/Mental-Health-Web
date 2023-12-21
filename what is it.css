@@ -1,11 +1,11 @@
 .paragraph-header {
     color: yellowgreen;
-    font-size: 5vh;
+    font-size: 3vh;
 }
 
 .body-text {
     background-color: white;
-    width: 50vw;
+    width: 80%;
     padding: 10vh 5vw;
     display: flex;
     flex-direction: column;
@@ -15,7 +15,7 @@
 }
 
 .body-text p {
-    font-size: 3.4vh;
+    font-size: 4vw;
     font-family: Verdana, Arial, Helvetica, sans-serif;
 }
 
@@ -27,22 +27,28 @@
 .img0 {
     border: 0.1vw solid black;
     background-image: url('what-is-img0.jpg');
-    height: 28vh;
-    width: 35vh;
+    background-size: 100%;
+    background-position: center;
+    height: 14vh;
+    width: 40vw;
     margin: 0 auto;
 }
 
 .img1 {
     border: 0.1vw solid black;
     background-image: url('what-is-img1.jpg');
-    height: 40vh;
-    width: 50vh;
+    background-size: 100%;
+    background-position: center;
+    height: 14vh;
+    width: 40vw;
     margin: 0 auto;
 }
 
 .img2 {
     border: 0.1vw solid black;
     background-image: url('what-is-img2.jpg');
+    background-size: 100%;
+    background-position: center;
     height: 10vh;
     width: 30vw;
     margin: 0 auto;
