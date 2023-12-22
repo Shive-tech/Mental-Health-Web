@@ -59,6 +59,26 @@
     border-top: 0.2vh solid black;
 }
 
+.what-can-you-do {
+    background-color: white;
+    margin: 0 auto;
+    width: 70vw;
+    border-top: 0.2vh solid black;
+}
+
+.solutions {
+    background-color: white;
+    margin: 0 auto;
+    width: 70vw;
+    border-top: 0.2vh solid black;
+}
+
+.sources-info {
+    background-color: white;
+    margin: 0 auto;
+    width: 70vw;
+}
+
 .footer-section {
     background-color: white;
     margin: 0 auto;
