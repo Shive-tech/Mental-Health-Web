@@ -17,14 +17,19 @@ document.addEventListener('DOMContentLoaded', function () {
       // Replace this with your actual data or API call
       var data = [
         // Sample data - replace with your actual data
-        { title: 'How to Deal With Toxic Masculinity<br>' , link: 'index.html' },
+        { title: 'How to Deal With Toxic Masculinity<br>' , link: 'whatcanyoudo.html' },
         { title: 'Helpful Resources<br>', link: 'findhelp.html' },
-        { title: '', link: 'index.html' },
-        { title: '', link: 'index.html' },
-        { title: '', link: 'index.html' },
-        { title: '', link: 'index.html' },
-        { title: '', link: 'index.html' },
-        { title: '', link: 'index.html' },
+        { title: 'What is Toxic Masculinity<br>', link: 'what is it.html' },
+        { title: 'Examples of Toxic Masculinity<br>', link: 'what is it.html' },
+        { title: 'Mental Health Stigma<br>', link: 'stigma.html' },
+        { title: 'Signs of Toxic Masculinity<br>', link: 'stigma.html' },
+        { title: 'How Toxic Masculinity Influences Others<br>', link: 'stigma.html' },
+        { title: 'Societal Impacts<br>', link: 'societal-impact.html' },
+        { title: 'Relunctancy to Offer Aid<br>', link: 'societal-impact.html' },
+        { title: 'Causes for Toxic Masculinity<br>', link: 'societal-impact.html' },
+        { title: 'Societal Impacts<br>', link: 'societal-impact.html' },
+        { title: 'Getting Started with Our Website/Navigating the Website<br>', link: 'gettingStarted.html' },
+        { title: 'Our Resources/Credible Citations<br>', link: 'sources.html' },
         // Add more items as needed
       ];
   
